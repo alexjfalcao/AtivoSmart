@@ -1,0 +1,109 @@
+
+
+PRD - MVP Controle Manual Inteligente de Ativos
+1. Objetivo do Produto
+Criar um aplicativo Web que permita aos usuários registrar manualmente todas as suas operações de investimento (compras, vendas e rendimentos) em diferentes tipos de ativos (ações, fundos, FIIs, renda fixa, cripto, etc.), com cálculos automáticos de rendimento e evolução patrimonial. 
+2. Usuários-alvo
+Investidores individuais que possuem diversos tipos de ativos.
+Usuários que não conseguem ou não querem integrar suas contas diretamente.
+Pessoas que desejam consolidar e visualizar a evolução do seu patrimônio de forma simples e clara.
+
+3. Funcionalidade Principal do MVP
+Controle Manual Inteligente de Ativos
+Registro de Operações
+Cadastro de compras, vendas e rendimentos para qualquer ativo.
+Campos básicos:
+Nome do ativo
+Tipo de ativo (ação, FII, fundo, renda fixa, cripto)
+Data da operação
+Quantidade
+Preço/unitário
+Taxas e impostos (opcional)
+Desdobramento
+Quantidade pós desdobramento
+Observações
+Cálculo Automático
+Total investido por ativo
+Valor atual estimado (opcional, inserido manualmente pelo usuário)
+Rentabilidade (percentual e valor)
+Evolução patrimonial do portfólio
+Dashboard Simples
+Lista de ativos com resumo de:
+Valor investido
+Valor atual
+Rentabilidade
+Gráfico de evolução patrimonial ao longo do tempo
+
+4. Requisitos Funcionais
+ID
+Requisito
+Prioridade
+RF01
+Usuário deve registrar manualmente uma operação de compra ou venda
+Essencial
+RF02
+Usuário deve registrar rendimentos recebidos de ativos
+Essencial
+RF03
+Sistema deve calcular total investido, rentabilidade e evolução patrimonial
+Essencial
+RF04
+Dashboard com resumo de todos os ativos
+Essencial
+RF05
+Possibilidade de editar e excluir registros
+Essencial
+RF06
+Salvar dados localmente ou em nuvem (inicialmente local)
+Essencial
+
+
+5. Requisitos Não Funcionais
+Interface intuitiva e minimalista.
+Armazenamento seguro dos dados do usuário.
+Web app simples.
+
+6. Métricas de Sucesso
+Número de registros criados por usuário.
+Frequência de acesso ao aplicativo.
+Feedback qualitativo: usuários consideram útil ter todos os ativos registrados manualmente.
+
+
+
+7. Escopo Excluído no MVP
+Integração automática com corretoras ou exchanges.
+Consultas em tempo real da bolsa.
+Funcionalidades avançadas de análise ou recomendações de investimento.
+
+
+Fase 1: Implementação do Registro de Operações
+Objetivo: Permitir que o usuário registre manualmente compras, vendas e rendimentos.
+Atividades:
+Criar formulários de cadastro de operações.
+Implementar CRUD (Create, Read, Update, Delete) de operações.
+Validar campos obrigatórios e consistência dos dados.
+Entregáveis:
+Sistema funcional de registro manual de operações.
+Banco de dados funcionando com persistência local.
+
+Fase 2: Cálculos Automáticos e Dashboard Básico
+Objetivo: Mostrar evolução patrimonial e rentabilidade de forma clara.
+Atividades:
+Implementar cálculo de total investido, rentabilidade e evolução patrimonial por ativo.
+Criar dashboard simples com lista de ativos e resumo financeiro.
+Adicionar gráficos básicos de evolução (linha ou barras).
+Entregáveis:
+Dashboard funcional com cálculo automático e gráficos simples.
+Testes de consistência dos cálculos.
+
+Fase 3: Funcionalidades de Edição e Exclusão
+Objetivo: Garantir flexibilidade e controle total sobre os registros do usuário.
+Atividades:
+Permitir edição de qualquer operação cadastrada.
+Implementar exclusão segura com confirmação.
+Testes de integridade de dados após alterações.
+Entregáveis:
+Registro de operações totalmente editável e removível.
+Testes de usabilidade concluídos.
+
+
